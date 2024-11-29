@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Fahrezi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="" class="logo">Fahrezi</a>
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="hamburger-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header id="home">
+            <img src="img/mirai.jpg" alt="">
+            <h1>Fahrezi Rizqiawan</h1>
+            <p>Web Developer</p>
+        </header>
+
+        <section class="about" id="about">
+            <div>
+                <h1>About Me</h1>
+            </div>
+            <div>
+                <div>
+                    <p>Hello, nama saya Fahrezi Rizqiawan, saya merupakan seorang Web Developer yang telah lulus dari Institut Bisnis Muhammadiyah jurusan Teknik Informatika S1 pada tahun 2024.</p>
+                </div>
+                <div>
+                    <p>Saya mampu membuat aplikasi website menggunakan HTML, CSS, Javascript, dan PHP. Dengan bantuan Framework dan Library lainnya seperti React, ExpressJS, dan Laravel</p>
+                </div>
+                <div>
+                    <p>Saya juga mampu menggunakan Software untuk membuat layout website seperti Figma, Adobe XD. Saya mampu membuat model 3D menggunakan Blender.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <div>
+                <h1>Project</h1>
+            </div>
+            <div>
+                <p>Saya pernah mengerjakan sebuah proyek baik proyek secara tim maupun individu (tekan nama pada website dibawah ini)</p>
+            </div>
+            <div class="project-list">
+                <div>
+                    <a href="https://swdm.me/" target="_blank">swdm.me</a>
+                    <img src="img/swdm.png" alt="">
+                </div>
+                <div>
+                    <a href="https://bahagiaku-ep.my.id/" target="_blank">Bahagiaku Event Organizer</a>
+                    <img src="img/bahagiaku.png" alt="">
+                </div>
+                <div>
+                    <a href="https://sketchfab.com/3d-models/scythe-of-the-dark-doom-c0ff16bd55634345afaf19fc602b665a" target="_blank">Scythe of The Dark Doom</a>
+                    <img src="img/scythe.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div>
+                <h1>Contact Me</h1>
+            </div>
+            <div>
+                <form id="contact-form">
+                    <div>
+                        <label for="">Nama</label>
+                        <input type="text" class="nama" id="nama">
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="text" class="email" id="email">
+                    </div>
+                    <div>
+                        <label for="">Deskripsi</label>
+                        <textarea cols="10" rows="10" name="" id="deskripsi" class="deskripsi"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" id="contact-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>2024<sup>&copy;</sup> Fahrezi Rizqiawan </p>
+        </footer>
+
+        <script src="javascript/script.js"></script>
+        <script src="javascript/smtp.js"></script>
+    </body>
+</html>
