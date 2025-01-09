@@ -5,6 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio | Fahrezi</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
         <nav>
@@ -29,18 +36,20 @@
         </header>
 
         <section class="about" id="about">
-            <div>
+            <div class="about-title">
                 <h1>About Me</h1>
             </div>
             <div>
-                <div>
-                    <p>Hello, nama saya Fahrezi Rizqiawan, saya merupakan seorang Web Developer yang telah lulus dari Institut Bisnis Muhammadiyah jurusan Teknik Informatika S1 pada tahun 2024.</p>
+                <div class="about-photo">
+                    <img src="img/mirai.png" alt="">
                 </div>
-                <div>
-                    <p>Saya mampu membuat aplikasi website menggunakan HTML, CSS, Javascript, dan PHP. Dengan bantuan Framework dan Library lainnya seperti React, ExpressJS, dan Laravel</p>
-                </div>
-                <div>
-                    <p>Saya juga mampu menggunakan Software untuk membuat layout website seperti Figma, Adobe XD. Saya mampu membuat model 3D menggunakan Blender.</p>
+                <div class="about-description">
+                    <p>Tahun 2020, Saya mempelajari bagaimana cara membuat website, dimulai dari mempelajari HTML, CSS, dan Bootstrap 4. niat tersebut muncul pada saat terjadinya wabah COVID-19 yang terjadi di tahun tersebut. Tahun tersebut adalah tahun yang dimana saya sudah lulus sekolah dan juga menjadi sebuah mahasiswa di Institut Bisnis Muhammadiyah.</p>
+                    <p>Tahun 2021, Saya mempelajari PHP dan Javascript untuk mengembangkan kemampuan saya untuk membuat sebuah website, dan pertama kali saya mempelajar bahasa pemrograman. Kemudian saya mempelajari bagaimana cara menggunakan Blender. Blender adalah sebuah aplikasi atau software untuk pembuatan sebuah model 3D</p>
+                    <p>Tahun 2022, Saya mempelajari framework CSS yang bernama TailwindCSS, lanjut mempelajari Github yang berguna untuk melakukan pengelolaan proyek berbasis aplikasi.</p>
+                    <p>Tahun 2023, Saya mulai magang di PT XYZ, tugas saya membuat landing page sederhana, membantu rekan kerja mengembangan aplikasi website, dan membuat aplikasi website peminjaman aset. Saya juga mempelajari Laravel, NodeJS, MongoDB, ReactJS, pembuatan dan menggunakan API  (Application Programming Interface), dan cara menggunakan ChatGPT</p>
+                    <p>Tahun 2024, tahun ini adalah tahun saya akan lulus kuliah, kegiatan yang saya lakukan di tahun ini adalah mempelajari NextJS, membuat skripsi, membuat model 3D sederhana, mempelajari bahasa pemrograman Dart, dan framework Dart yang bernama Flutter. proyek yang sedang saya kerjakan saat ini adalah mengembangkan sebuah game android menggunakan Flutter.</p>
+                    <p>Tahun 2025, tahun ini blom ada kegiatan.</p>
                 </div>
             </div>
         </section>
@@ -70,26 +79,29 @@
 
         <section class="contact" id="contact">
             <div>
-                <h1>Contact Me</h1>
+                <h1>Reach Me On</h1>
             </div>
-            <div>
-                <form id="contact-form">
-                    <div>
-                        <label for="">Nama</label>
-                        <input type="text" class="nama" id="nama">
-                    </div>
-                    <div>
-                        <label for="">Email</label>
-                        <input type="text" class="email" id="email">
-                    </div>
-                    <div>
-                        <label for="">Deskripsi</label>
-                        <textarea cols="10" rows="10" name="" id="deskripsi" class="deskripsi"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" id="contact-submit">Submit</button>
-                    </div>
-                </form>
+            <div class="social-media">
+                <a href="#">
+                    <i class="bi bi-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-github"></i>
+                    <span>Github</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                    <span>Linkedin</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-envelope"></i>
+                    <span>Email</span>
+                </a>
             </div>
         </section>
 
@@ -98,6 +110,6 @@
         </footer>
 
         <script src="javascript/script.js"></script>
-        <script src="javascript/smtp.js"></script>
+        <!-- <script src="javascript/smtp.js"></script> -->
     </body>
 </html>
